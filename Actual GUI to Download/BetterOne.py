@@ -377,7 +377,7 @@ class PageMental(tk.Frame):
 
         fm3 = tk.Frame(self, bg="white")
         fm3.columnconfigure(0, weight=1)
-        tk.Label(fm3, text="News", justify=tk.CENTER, fg="white", bg="blue").grid(row=0, sticky="ewsn")
+        tk.Label(fm3, text="Meditation", justify=tk.CENTER, fg="white", bg="blue").grid(row=0, sticky="ewsn")
         tk.Label(fm3, text="1.Sit or lie comfortably. You may even want to invest in a meditation chair or cushion. \n 2. Close your eyes. We recommend using one of our Cooling Eye Masks or Restorative Eye Pillows if lying down.\n 3. Make no effort to control the breath; simply breathe naturally.\n 4. Focus your attention on the breath and on how the body moves with each inhalation and exhalation. Notice the movement of your body as you breathe. Observe your chest, shoulders, rib cage, and belly. Simply focus your attention on your breath without controlling its pace or intensity. If your mind wanders, return your focus back to your breath.", bg="white", height=10).grid(row=1, rowspan=4, sticky="ewsn")
         fm3.grid(row=3, pady=20, padx=200, sticky="ewsn")
 
