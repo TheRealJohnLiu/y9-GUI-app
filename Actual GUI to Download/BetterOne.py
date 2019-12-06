@@ -260,9 +260,9 @@ class PageDiet(tk.Frame):
         a.plot(p, range(2 +max(x)),color='blue')
         a.invert_yaxis()
 
-        a.set_title ("Estimation Grid", fontsize=16)
-        a.set_ylabel("", fontsize=14)
-        a.set_xlabel("X", fontsize=14)
+        a.set_title ("Your Diet", fontsize=16)
+        a.set_ylabel("Amount Eaten", fontsize=14)
+        a.set_xlabel("How Many Times", fontsize=14)
 
         canvas = FigureCanvasTkAgg(fig, master=self.graphframe)
         canvas.get_tk_widget().grid(row=0, sticky="ewsn")
@@ -322,7 +322,7 @@ class PageFitness(tk.Frame):
         fm4 = tk.Frame(self, bg="white")
         fm4.columnconfigure(0, weight=1)
         tk.Label(fm4, text="News", justify=tk.CENTER, fg="white", bg="blue").grid(row=0, sticky="ewsn")
-        tk.Label(fm4, text="Whether fresh, frozen or canned, the nutritional benefits of produce will be received no matter how you buy them – as long as you eat them! And if buying them frozen, means you’re more likely to eat those green beans, then go for it! What’s key is being able to have produce at your fingertips for any meal or snack without having to run to the supermarket every time you want a fruit or veggie.", bg="white", height=10).grid(row=1, rowspan=4, sticky="ewsn")
+        tk.Label(fm4, text="University of Guelph receives international award for food waste \n \n The Food Centre launches new initiative for female entrepreneurs \n \n 47% of Barry Callebaut cocoa was sourced sustainably \n \n Canada’s Food Price Report forecasts an increase in food costs", bg="white", height=10).grid(row=1, rowspan=4, sticky="ewsn")
         fm4.grid(row=3, pady=20, padx=200, sticky="ewsn") 
     
     def showinfo(self):
@@ -378,7 +378,7 @@ class PageMental(tk.Frame):
         fm3 = tk.Frame(self, bg="white")
         fm3.columnconfigure(0, weight=1)
         tk.Label(fm3, text="Meditation", justify=tk.CENTER, fg="white", bg="blue").grid(row=0, sticky="ewsn")
-        tk.Label(fm3, text="1.Sit or lie comfortably. You may even want to invest in a meditation chair or cushion. \n 2. Close your eyes. We recommend using one of our Cooling Eye Masks or Restorative Eye Pillows if lying down.\n 3. Make no effort to control the breath; simply breathe naturally.\n 4. Focus your attention on the breath and on how the body moves with each inhalation and exhalation. Notice the movement of your body as you breathe. Observe your chest, shoulders, rib cage, and belly. Simply focus your attention on your breath without controlling its pace or intensity. If your mind wanders, return your focus back to your breath.", bg="white", height=10).grid(row=1, rowspan=4, sticky="ewsn")
+        tk.Label(fm3, text="1.Sit or lie comfortably. You may even want to invest in a meditation chair or cushion. \n 2. Close your eyes. We recommend using one of our Cooling Eye Masks or \n Restorative Eye Pillows if lying down.\n 3. Make no effort to control the breath; simply breathe naturally.\n 4. Focus your attention on the breath and on how the body \n moves with each inhalation \n and exhalation. Notice the movement of your body as you breathe. Observe your chest, \n shoulders, rib cage, and belly. Simply focus your attention on your breath without controlling \n its pace or intensity. If your mind wanders, return your focus back to your breath.", bg="white", height=10).grid(row=1, rowspan=4, sticky="ewsn")
         fm3.grid(row=3, pady=20, padx=200, sticky="ewsn")
 
 
